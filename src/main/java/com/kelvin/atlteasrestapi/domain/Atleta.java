@@ -19,7 +19,8 @@ public class Atleta {
     public Atleta() {
     }
 
-    public Atleta(String name, String surname, String nationality, LocalDate birthday) {
+    public Atleta(long id, String name, String surname, String nationality, LocalDate birthday) {
+        this.id = id;
         this.name = name;
         this.surname = surname;
         this.nationality = nationality;
